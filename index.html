@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Fərid & Aysel | Toy Dəvətnaməsi</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Curtain Overlay -->
+    <div class="curtain-container" id="curtain">
+        <div class="curtain-rod"></div>
+        <div class="curtain-panel curtain-left"></div>
+        <div class="curtain-panel curtain-right"></div>
+        <div class="curtain-content">
+            <button class="curtain-btn" id="openCurtainBtn">
+                Dəvətnaməni Aç
+            </button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="subtitle animate-fade-in delay-1">birlikdə bir ömrə</div>
+            <h1 class="names animate-scale-in delay-2">Fərid<br>&<br>Aysel</h1>
+            <div class="date animate-fade-in delay-3">25 OKTYABR 2026</div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Invitation Message -->
+    <section class="invitation">
+        <div class="container reveal">
+            <div class="ornament"><i class="fa-brands fa-envira"></i></div>
+            <p class="invite-text">
+                Ən özəl günümüzdə,<br>həyatımızı birləşdirərkən<br>xoşbəxtliyimizi bölüşməyiniz üçün<br>sizi də aramızda
+                görməkdən<br>şərəf duyarıq.
+            </p>
+            <h3 class="parents-names">Məmmədov & Əliyev Ailələri</h3>
+        </div>
+    </section>
+
+    <!-- Timeline / Program -->
+    <section class="program">
+        <div class="container reveal">
+            <h2 class="section-title">Proqram</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="time">19:00</div>
+                    <div class="event">Kokteyl və Qarşılama</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">20:00</div>
+                    <div class="event">Nikah Mərasimi</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="time">20:30</div>
+                    <div class="event">Şam Yeməyi və Əyləncə</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section">
+        <div class="container reveal">
+            <h2 class="section-title">Geri Sayım</h2>
+            <div class="countdown-timer" id="countdown">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <p>Gün</p>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <p>Saat</p>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <p>Dəqiqə</p>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <p>Saniyə</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Venue -->
+    <section class="location">
+        <div class="container reveal">
+            <h2 class="section-title">Məkan</h2>
+            <div class="venue-card">
+                <div class="venue-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <h3>Quba Şadlıq Sarayı</h3>
+                <p>Quba, Azərbaycan</p>
+
+                <div class="action-buttons">
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Quba+Şadlıq+Sarayı,+Quba"
+                        class="btn btn-outline" target="_blank">
+                        <i class="fa-solid fa-map-location-dot"></i> Xəritədə Gör
+                    </a>
+                    <a href="#" id="addToCalendar" class="btn btn-outline">
+                        <i class="fa-regular fa-calendar-plus"></i> Təqvimə Əlavə Et
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp">
+        <div class="container reveal">
+            <h2 class="section-title">İştirak</h2>
+            <p>Zəhmət olmasa iştirak durumunuzu ən gec <strong>15 Oktyabr 2026</strong> tarixinə qədər bildirəsiniz.</p>
+            <div class="whatsapp-card">
+                <p>Sürətli və asan bildiriş üçün WhatsApp-dan bizə yazın:</p>
+                <a href="https://wa.me/905555555555?text=Salam,%20toy%20dəvətiniz%20üçün%20təşəkkürlər!%20Mütləq%20gələcəyəm."
+                    class="btn btn-whatsapp-chic" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Mütləq Gələcəyəm
+                </a>
+            </div>
+            <div class="note">
+                <p><em>Qeyd: Uşaqlar nəzərdə tutulmayıb və yalnız böyüklər üçün özəl bir gecədir. Anlayışınız üçün
+                        təşəkkür edirik.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guestbook Section -->
+    <section class="guestbook" id="guestbook-section">
+        <div class="container reveal">
+            <h2 class="section-title">Təbriklər</h2>
+            <p class="guestbook-desc">Gözəl arzularınızı bizimlə bölüşün.</p>
+
+            <form id="guestbook-form" class="guestbook-form">
+                <div class="form-group-row">
+                    <input type="text" id="gb-name" placeholder="Adınız" required>
+                    <input type="text" id="gb-surname" placeholder="Soyadınız" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="gb-message" placeholder="Təbrik mesajınız..." rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline gb-submit">
+                    <i class="fa-regular fa-paper-plane"></i> Mesajı Göndər
+                </button>
+            </form>
+
+            <div class="messages-container" id="messages-container">
+                <!-- Mesajlar JS ilə bura əlavə ediləcək -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h2 class="footer-names">Fərid & Aysel</h2>
+            <p>Sonsuza Qədər...</p>
+        </div>
+    </footer>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="track.m4a" type="audio/mp4">
+        Brauzeriniz səs teqini dəstəkləmir.
+    </audio>
+
+    <!-- Music Control Button -->
+    <div class="music-control" id="musicToggle">
+        <div class="music-waves" id="musicWaves">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <i class="fa-solid fa-music" id="musicIcon"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
